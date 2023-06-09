@@ -23,7 +23,7 @@ I've used the following command to find the process that is writing to the log f
 $ ps aux | grep python
 ```
 
-With this command I've got 3 processes that are writing to the log file, but only one was the culprit
+With this command I've got 3 processes that are uusing python at the moment, but only one was the culprit
 
 At first I went to home and search for the .python_history and get a clue about the file that was writing to the log file
 
